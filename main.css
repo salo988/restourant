@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    font-family: karma;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}
+.nav-bar-name {
+    font-size: 24px;
+    margin: 18px 20px;
+}
+.main-div {
+    text-align: center;
+}
+img {
+    margin-top: 125px;
+    width: 70%;
+}
+p {
+    font-family: "Karma", serif;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+h3 {
+    font-family: "Karma", serif;
+    font-size: 24px;
+    font-weight: 590;
+}
+.concret-food {
+    padding: 0px 30px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 11px 14px;
+    border: none;
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.button-number1 {
+    background: black;
+    color: white;
+}
+
+.button-number1:hover {
+    background: lightgray;
+    color: black;
+}
+
+hr {
+    margin: 60px 18px;
+    border: 0;
+    border-top: 1px solid rgb(236, 236, 236);
+}
+.aboutMe {
+    padding: 0px 30px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.iam {
+    font-size: 20px;
+}
+.foodman-img {
+    margin: 10px 0px;
+}
+.WithPassionForReal {
+    font-style: italic;
+}
+.aboutMe-second-p {
+    margin-bottom: 0px;
+}
+.footer-div {
+    text-align: left;
+    /* padding: 0px 30px; */
+    margin: 0 auto;
+    width: 80%;
+}
+.a-w3css {
+    color: black;
+}
+.blogposts-lorem-ipsum {
+    display: flex;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.blogposts-lorem-ipsum:hover {
+    background-color: lightgrey;
+}
+.blogposts-lorem-information {
+    margin-left: 20px;
+}
+.Lorem-last-h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.last-photo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding-left: 15px;
+}
+.Lorem-last-h3 {
+    font-size: 18px;
+}
+.blogposts-p-last {
+    display: inline;
+}
+.last-hr {
+    margin: 0px;
+}
+.populartags-h3 {
+    margin-bottom: 0px;
+}
+.last-buttons-under {
+    background-color: gray;
+    padding: 1px 5px;
+    font-family: serif;
+    color: white;
+    margin-top: 20px;
+}
+.last-buttons-under:hover {
+    background-color: gray;
+    color: white;
+    cursor: text;
+}
+.last-buttons-under-black {
+    padding: 4px 6px;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    margin-top: 0px;
+}
+.last-buttons-under-black:hover {
+    cursor: text;
+}
+.last-button-list {
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 500px), (min-width: 319px) {
+    /*food photos and discribtion*/
+    img {
+        width: 90%;
+    }
+    /*last-buttons*/
+    .last-buttons-under {
+        padding: 1px 2px;
+    }
+    .last-buttons-under-black {
+        padding: 4px 4px;
+    }
+}
+@media only screen and (min-width: 500px) {
+    img {
+        width: 90%;
+    }
+    .nav-bar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-bar-name {
+        font-size: 50px;
+    }
+    .nav-bar a,
+    .button button {
+        font-size: 25px;
+    }
+    h3,
+    .iam {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .food-information {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .aboutMe p {
+        line-height: 30px;
+    }
+    .last-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .blogposts-lorem-ipsum {
+        align-items: center;
+    }
+    #Lorem-last-h3 {
+        font-size: 25px;
+    }
+    .last-buttons-under {
+        padding: 4px 9px;
+        font-size: 17px;
+    }
+    .last-buttons-under-black {
+        padding: 6px 13px;
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav-bar-name {
+        font-size: 24px;
+    }
+    .nav-bar a {
+        font-size: 24px;
+    }
+    .button button {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .iam {
+        font-size: 20px;
+    }
+    .last-buttons-under {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+    .last-buttons-under-black {
+        padding: 5px 12px;
+        font-size: 15px;
+    }
+    .food-information {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .concret-food {
+        width: 100%;
+        padding: 0;
+    }
+
+    .concret-food img {
+        padding: 0;
+    }
+    .food-1 {
+        display: flex;
+
+        justify-content: center;
+        gap: 10px;
+    }
+    .food-2 {
+        display: flex;
+
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /*FOOTER*/
+    footer {
+        width: 30%;
+        margin-left: 30px;
+    }
+    .BLOGPOSTS {
+        width: 30%;
+    }
+    .blogposts-information h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .POPULARTAGS {
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-div img {
+        width: 50px;
+        height: 50px;
+    }
+    #the-last-hr {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
